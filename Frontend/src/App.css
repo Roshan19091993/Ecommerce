@@ -1,0 +1,34 @@
+.rounded-r-half {
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.customShadow{
+    box-shadow: 0px 01px 10px rgba(0,0,0,0.1);
+}
+
+/*User Table*/
+.userTable {
+    @apply bg-white;
+}
+.userTable th{
+    @apply border text-base font-medium; 
+}
+.userTable td{
+    @apply border text-base text-center;
+}
+//*scrollbar hidden*/
+
+.scrollbar-hidden {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
